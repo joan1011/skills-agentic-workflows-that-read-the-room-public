@@ -24,6 +24,7 @@ safe-outputs:
 ## Instructions for the agent
 
 - Read the repository file `notes/mona-notes.md`.
+- Use the GitHub Blog and the GitHub Changelog as official sources.
 - Web fetch `https://github.blog/latest/` and `https://github.blog/changelog/`.
 - Aggregate relevant items and update `site/content/github-info.md`.
 - Produce the new file content as the `combined_content` safe output.
