@@ -24,8 +24,8 @@ safe-outputs:
 ## Instructions for the agent
 
 - Read the repository file `notes/mona-notes.md`.
-- Use the GitHub Blog and the GitHub Changelog as official sources.
-- Web fetch `https://github.blog/latest/` and `https://github.blog/changelog/`.
+- Use the GitHub Blog, the GitHub Changelog, and awesome-copilot workflows as official sources.
+- Web fetch `https://github.blog/latest/`, `https://github.blog/changelog/`, and `https://awesome-copilot.github.com/workflows/`.
 - Aggregate relevant items and update `site/content/github-info.md`.
 - Produce the new file content as the `combined_content` safe output.
 - Open a pull request for Mona to review the proposed website update.
