@@ -28,6 +28,7 @@ safe-outputs:
 - Web fetch `https://github.blog/latest/` and `https://github.blog/changelog/`.
 - Aggregate relevant items and update `site/content/github-info.md`.
 - Produce the new file content as the `combined_content` safe output.
+- Open a pull request for Mona to review the proposed website update.
 - Use `github.create-pull-request` (declared in `safe-outputs`) to propose
   the change instead of writing directly to `main`.
 
